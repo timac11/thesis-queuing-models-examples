@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  haproxy:
+    image: haproxy
+    ports:
+      - 8080:80
+      - 8404:8404
+
+  web1:
+    image: nginx
+
+  web2:
+    image: nginx
+
+  web3:
+    image: nginx
