@@ -95,11 +95,11 @@ async def collect_succeeded_tasks():
             QUEUE_TIME.collect(item.started - item.queued)
 
         for item in priority_tasks:
-            PRIORITY_RESPONSE_TIME.collect(item.runtime)
+            PRIORITY_RESPONSE_TIME.collect(item.succeeded - item.queued)
             PRIORITY_QUEUE_TIME.collect(item.started - item.queued)
 
         for item in not_priority_tasks:
-            NOT_PRIORITY_RESPONSE_TIME.collect(item.runtime)
+            NOT_PRIORITY_RESPONSE_TIME.collect(item.succeeded - item.queued)
             NOT_PRIORITY_QUEUE_TIME.collect(item.started - item.queued)
 
         await asyncio.sleep(sleep_time)
@@ -154,10 +154,13 @@ def print_metrics():
         QUEUE_SIZE,
         WORKERS_COUNT,
         PRIORITY_WORKERS_COUNT,
+        NOT_PRIORITY_WORKERS_COUNT,
         RESPONSE_TIME,
         PRIORITY_RESPONSE_TIME,
+        NOT_PRIORITY_RESPONSE_TIME,
         QUEUE_TIME,
-        PRIORITY_QUEUE_TIME
+        PRIORITY_QUEUE_TIME,
+        NOT_PRIORITY_QUEUE_TIME
     ]
     print('#######################################################')
     for item in arr:
