@@ -1,5 +1,3 @@
-import random
-
 from celery import Celery
 import numpy as np
 import time
