@@ -12,12 +12,12 @@ FLOWER_URL = 'http://localhost:5555'
 
 @dataclasses.dataclass
 class TaskRes:
-    runtime: str
+    runtime: float
     result: str
     name: str
-    started: int
-    succeeded: int
-    queued: int
+    started: float
+    succeeded: float
+    queued: float
     priority: str
 
 
@@ -72,13 +72,14 @@ def _get_tasks(state, received_start=None, received_end=None):
 
 async def collect_succeeded_tasks():
     sleep_time = 60
+    cur_time = datetime.datetime.now()
 
     while True:
 
         res: List[TaskRes] = _get_tasks(
             state='SUCCESS',
-            received_start=CUR_DATETIME.strftime('%Y-%m-%d %H:%M'),
-            received_end=(CUR_DATETIME + datetime.timedelta(0, 60)).strftime('%Y-%m-%d %H:%M')
+            received_start=cur_time.strftime('%Y-%m-%d %H:%M'),
+            received_end=(cur_time + datetime.timedelta(0, 60)).strftime('%Y-%m-%d %H:%M')
         )
 
         priority_tasks = []
@@ -103,6 +104,8 @@ async def collect_succeeded_tasks():
             NOT_PRIORITY_QUEUE_TIME.collect(item.started - item.queued)
 
         await asyncio.sleep(sleep_time)
+
+        cur_time = cur_time + datetime.timedelta(0, sleep_time)
 
         print_metrics()
 
