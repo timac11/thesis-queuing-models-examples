@@ -1,0 +1,45 @@
+lambda = 3
+mu = 1
+workers = 7
+
+#######################################################
+
+            Metric Queue Size
+            Count: 76028, Value: 0.0005524280528226434
+
+
+            Metric Workers Count
+            Count: 76028, Value: 3.014402588520023
+
+
+            Metric Priority Workers Count
+            Count: 76028, Value: 1.5152443836481215
+
+
+            Metric Not Priority Workers Count
+            Count: 76028, Value: 1.4991582048718852
+
+
+            Metric Response Time
+            Count: 30453, Value: 1.0026861210587725
+
+
+            Metric Priority Response Time
+            Count: 15312, Value: 0.9996398652951451
+
+
+            Metric Not Priority Response Time
+            Count: 15141, Value: 1.0057667807412762
+
+
+            Metric Queue Time
+            Count: 30453, Value: 0.017866124912024477
+
+
+            Metric Priority Queue Time
+            Count: 15312, Value: 0.018049020767834774
+
+
+            Metric Not Priority Queue Time
+            Count: 15141, Value: 0.017681163460061565
+
