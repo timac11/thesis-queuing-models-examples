@@ -16,3 +16,21 @@ class AvgMetric:
             Metric {self.name} 
             Count: {self.count}, Value: {self.value}
         """
+
+
+class CountMetric:
+    def __init__(self, name):
+        self.value = 0
+        self.name = name
+
+    def collect(self):
+        self.value += 1
+
+    def get_value(self):
+        return self.value
+
+    def __repr__(self):
+        return f"""
+            Metric {self.name} 
+            Value: {self.value}
+        """

@@ -24,16 +24,16 @@ services:
     ports:
       - 3000:3000
     volumes:
-       - grafana_data:/var/lib/grafana
+       - ./data/grafana_data:/var/lib/grafana
 
   web1:
-    image: nginx
+    image: haproxy-server
 
   web2:
-    image: nginx
+    image: haproxy-server
 
   web3:
-    image: nginx
+    image: haproxy-server
 
 volumes:
   prometheus_data:
@@ -42,6 +42,7 @@ volumes:
       o: bind
       type: none
       device: ./prometheus_data
+
   grafana_data:
     driver: local
     driver_opts:

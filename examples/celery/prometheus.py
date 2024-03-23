@@ -2,7 +2,7 @@ import requests
 import dataclasses
 from typing import List
 import datetime
-from metrics.metric import AvgMetric
+from common.metrics.metric import AvgMetric
 import ast
 
 import asyncio
