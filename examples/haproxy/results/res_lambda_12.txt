@@ -1,0 +1,67 @@
+lambda = 12
+mu = 1/3
+servers = 90
+
+workers = 34
+
+
+#######################################################
+
+            Metric Packets Count
+            Value: 82417
+
+
+            Metric Priority Packets Count
+            Value: 41446
+
+
+            Metric Not Priority Packets Count
+            Value: 40971
+
+
+            Metric Loss Packets
+            Value: 0
+
+
+            Metric Priority Loss Packets
+            Value: 0
+
+
+            Metric Not Priority Loss Packets
+            Value: 0
+
+
+            Metric Response Time
+            Count: 82417, Value: 3.0178676218984277
+
+
+            Metric Priority Response Time
+            Count: 41446, Value: 3.0208921786662177
+
+
+            Metric Not Priority Response Time
+            Count: 40971, Value: 3.014807999731544
+
+
+            Metric Queue Time
+            Count: 82417, Value: 0.00614954542145572
+
+
+            Metric Priority Queue Time
+            Count: 41446, Value: 0.006118808714953106
+
+
+            Metric Not Priority Queue Time
+            Count: 40971, Value: 0.0061806384759992465
+
+
+            Metric Service Time
+            Count: 82417, Value: 3.0117180764769516
+
+
+            Metric Priority Service Time
+            Count: 41446, Value: 3.01477336995127
+
+
+            Metric Not Priority Service Time
+            Count: 40971, Value: 3.0086273612555545

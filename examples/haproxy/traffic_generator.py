@@ -102,7 +102,7 @@ async def print_metrics():
 
 
 async def main():
-    mmap_ = Mmap.exponential(6, nc=2)
+    mmap_ = Mmap.exponential(16, nc=2)
     tasks = []
 
     print_metric_task = asyncio.create_task(print_metrics())
