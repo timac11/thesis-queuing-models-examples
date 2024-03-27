@@ -1,0 +1,60 @@
+#######################################################
+
+            Metric Packets Count
+            Value: 363164
+
+
+            Metric Priority Packets Count
+            Value: 181780
+
+
+            Metric Not Priority Packets Count
+            Value: 181384
+
+
+            Metric Loss Packets
+            Value: 0
+
+
+            Metric Priority Loss Packets
+            Value: 0
+
+
+            Metric Not Priority Loss Packets
+            Value: 0
+
+
+            Metric Response Time
+            Count: 363164, Value: 3.120437952660547
+
+
+            Metric Priority Response Time
+            Count: 181780, Value: 3.07287245754216
+
+
+            Metric Not Priority Response Time
+            Count: 181384, Value: 3.1681072934106553
+
+
+            Metric Queue Time
+            Count: 363164, Value: 0.053843625411659504
+
+
+            Metric Priority Queue Time
+            Count: 181780, Value: 0.01612506387941392
+
+
+            Metric Not Priority Queue Time
+            Count: 181384, Value: 0.09164453461716346
+
+
+            Metric Service Time
+            Count: 363164, Value: 3.0665943272488105
+
+
+            Metric Priority Service Time
+            Count: 181780, Value: 3.056747393662663
+
+
+            Metric Not Priority Service Time
+            Count: 181384, Value: 3.0764627587935522

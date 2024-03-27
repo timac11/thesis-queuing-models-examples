@@ -1,0 +1,173 @@
+[
+  {
+    "lambda": 6,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 15
+    },
+    "response_time": {
+      "both": 3.044450569393783,
+      "priority": 3.0205318342306673,
+      "not_priority": 3.0679171294134
+    },
+    "queue_time": {
+      "both": 0.005821420362059916,
+      "priority": 0.005710174128657347,
+      "not_priority": 0.005930563525161847
+    }
+  },
+  {
+    "lambda": 8,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 20
+    },
+    "response_time": {
+      "both": 2.9954193185739806,
+      "priority": 2.985090961763418,
+      "not_priority": 3.005882773820417
+    },
+    "queue_time": {
+      "both": 0.0058033758317791884,
+      "priority": 0.0057931443282885665,
+      "not_priority": 0.005813741166831162
+    }
+  },
+  {
+    "lambda": 10,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 35
+    },
+    "response_time": {
+      "both": 3.0162717144810087,
+      "priority": 3.008494329156235,
+      "not_priority": 3.0240439840109095
+    },
+    "queue_time": {
+      "both": 0.007672745862226722,
+      "priority": 0.007677897192475536,
+      "not_priority": 0.007667597920410832
+    }
+  },
+  {
+    "lambda": 12,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 34
+    },
+    "response_time": {
+      "both": 3.0178676218984277,
+      "priority": 3.0208921786662177,
+      "not_priority": 3.014807999731544
+    },
+    "queue_time": {
+      "both": 0.00614954542145572,
+      "priority": 0.006118808714953106,
+      "not_priority": 0.0061806384759992465
+    }
+  },
+  {
+    "lambda": 14,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 48
+    },
+    "response_time": {
+      "both": 2.9866407681975797,
+      "priority": 2.9900868174268282,
+      "not_priority": 2.983195874243219
+    },
+    "queue_time": {
+      "both": 0.006299869182751574,
+      "priority": 0.0062688106999149165,
+      "not_priority": 0.006330917253349264
+    }
+  },
+  {
+    "lambda": 16,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 52
+    },
+    "response_time": {
+      "both": 3.034960200938497,
+      "priority": 3.018848746431249,
+      "not_priority": 3.0250938601494351
+    },
+    "queue_time": {
+      "both": 0.006237653499960479,
+      "priority": 0.006183566057101278,
+      "not_priority": 0.006291294270051262
+    }
+  },
+  {
+    "lambda": 18,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 58
+    },
+    "response_time": {
+      "both": 2.9991275455266573,
+      "priority": 2.9870954434666617,
+      "not_priority": 3.0111247031752777
+    },
+    "queue_time": {
+      "both": 0.006069851354209888,
+      "priority": 0.0060597306965819294,
+      "not_priority": 0.006079942618767542
+    }
+  },
+  {
+    "lambda": 22,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 75
+    },
+    "response_time": {
+      "both": 3.0316200615375193,
+      "priority": 3.035358204183981,
+      "not_priority": 3.027890774536628
+    },
+    "queue_time": {
+      "both": 0.007077342199766993,
+      "priority": 0.007037319077243597,
+      "not_priority": 0.007117270507666214
+    }
+  },
+   {
+    "lambda": 26,
+    "mu": 0.33,
+    "workers": 90,
+    "queue_size": 0,
+    "workers_busy": {
+      "both": 82
+    },
+    "response_time": {
+      "both": 3.0226863527674728,
+      "priority": 3.011282091455792,
+      "not_priority": 3.03407338644776
+    },
+    "queue_time": {
+      "both": 0.01594640177727737,
+      "priority": 0.009314429110402162,
+      "not_priority": 0.022568355980212396
+    }
+  }
+]
