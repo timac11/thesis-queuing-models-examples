@@ -33,6 +33,12 @@ def priority(n, creation_date):
 
 
 @app.task
+def sleep(n, creation_date):
+    time.sleep(n)
+    return {'sleep': n, 'creation_date': creation_date}
+
+
+@app.task
 def non_priority(n, creation_date):
     time.sleep(n)
     return {'sleep': n, 'creation_date': creation_date}

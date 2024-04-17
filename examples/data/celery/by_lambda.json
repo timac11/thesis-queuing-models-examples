@@ -1,0 +1,170 @@
+[
+  {
+    "lambda": 6,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 0.10807825498547108,
+    "workers_busy": {
+      "both": 5.889108507386715,
+      "priority": 2.9539887926642714,
+      "not_priority": 2.9351197147223616
+    },
+    "response_time": {
+      "both": 1.161953327584147,
+      "priority": 1.152643961541012,
+      "not_priority": 1.1712035940062386
+    },
+    "queue_time": {
+      "both": 0.17351784581502447,
+      "priority": 0.16025603672089556,
+      "not_priority": 0.18669546358089664
+    }
+  },
+  {
+    "lambda": 6.25,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 0.13257329745778362,
+    "workers_busy": {
+      "both": 5.9704147663506655,
+      "priority": 2.99503331025095,
+      "not_priority": 2.9753814560997065
+    },
+    "response_time": {
+      "both": 1.2069163528094642,
+      "priority": 1.1962920486955182,
+      "not_priority": 1.2175809874845747
+    },
+    "queue_time": {
+      "both": 0.20828226939052594,
+      "priority": 0.196190398769868,
+      "not_priority": 0.22042004155182657
+    }
+  },
+  {
+    "lambda": 6.5,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 0.4103926524070741,
+    "workers_busy": {
+      "both": 6.23235477033597,
+      "priority": 3.113074160098527,
+      "not_priority": 3.1192806102374497
+    },
+    "response_time": {
+      "both": 1.3222321362106546,
+      "priority": 1.2700735230241622,
+      "not_priority": 1.37452519695468
+    },
+    "queue_time": {
+      "both": 0.32146762672522505,
+      "priority": 0.27041165007338536,
+      "not_priority": 0.3726552087043314
+    }
+  },
+  {
+    "lambda": 6.75,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 0.5892551480885942,
+    "workers_busy": {
+      "both": 6.457952638448626,
+      "priority": 3.239618017634045,
+      "not_priority": 3.218334620814577
+    },
+    "response_time": {
+      "both": 1.397633008911896,
+      "priority": 1.3369817877014465,
+      "not_priority": 1.4584285382286695
+    },
+    "queue_time": {
+      "both": 0.39581920307411816,
+      "priority": 0.33391282786000726,
+      "not_priority": 0.45787287279603855
+    }
+  },
+  {
+    "lambda": 7,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 0.983724620580221,
+    "workers_busy": {
+      "both": 6.712824657228837,
+      "priority": 3.3365566826440736,
+      "not_priority": 3.376267974584773
+    },
+    "response_time": {
+      "both": 1.5269702588159397,
+      "priority": 1.4196091421213075,
+      "not_priority": 1.633586203319338
+    },
+    "queue_time": {
+      "both": 0.5200510079652846,
+      "priority": 0.4160423300865537,
+      "not_priority": 0.623337782264874
+    }
+  },
+  {
+    "lambda": 7.25,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 2.0259921586325658,
+    "workers_busy": {
+      "both": 6.917830922439478,
+      "priority": 3.439630733444792,
+      "not_priority": 3.4782001889946965
+    },
+    "response_time": {
+      "both": 1.7783411034483987,
+      "priority": 1.537322683007921,
+      "not_priority": 2.0166353070514207
+    },
+    "queue_time": {
+      "both": 0.7747307948473915,
+      "priority": 0.5326466217024278,
+      "not_priority": 1.0140787050156066
+    }
+  },
+  {
+    "lambda": 7.5,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 5.673950419538307,
+    "workers_busy": {
+      "both": 7.1842816790779755,
+      "priority": 3.5840671872875824,
+      "not_priority": 3.6002144917904033
+    },
+    "response_time": {
+      "both": 2.305145638676425,
+      "priority": 1.694426820751759,
+      "not_priority": 2.916673235457586
+    },
+    "queue_time": {
+      "both": 1.3009499525637571,
+      "priority": 0.692807138489813,
+      "not_priority": 1.9098981340756778
+    }
+  },
+  {
+    "lambda": 7.75,
+    "mu": 1,
+    "workers": 8,
+    "queue_size": 9.134407865698572,
+    "workers_busy": {
+      "both": 7.3461340004690925,
+      "priority": 3.66635915878352,
+      "not_priority": 3.6797748416855627
+    },
+    "response_time": {
+      "both": 2.944669665715021,
+      "priority": 1.8262917562096763,
+      "not_priority": 4.062789954292741
+    },
+    "queue_time": {
+      "both": 1.943486607473844,
+      "priority": 0.8277925014004708,
+      "not_priority": 3.0589237108398573
+    }
+  }
+]

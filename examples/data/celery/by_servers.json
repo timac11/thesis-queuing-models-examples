@@ -3,7 +3,7 @@
     "lambda": 3,
     "mu": 1,
     "workers": 4,
-    "queue_size": 0.49937920669148944,
+    "queue_size": 1.0937920669148944,
     "workers_busy": {
       "both": 3.003382650845095,
       "priority": 1.4927561300936674,
